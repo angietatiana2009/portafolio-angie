@@ -1,53 +1,59 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(240, 239, 243);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: rgb(190, 218, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     color: black;
 }
 .contenedorbody{
     height: 100vh;
-    display: flex;   
+    display: flex;
 }
-.main01{
+.main{
     flex: 3;
     padding: 40px;
-    background-color: rgb(242, 226, 241);
+    background-color: rgb(243, 230, 247);
     overflow-y: auto;
-    text-align: center;
-
 }
-a {
-    text-decoration: none; 
+ul li {
+  list-style: none;
 }
- ul{
-    list-style: none;
-       
- }
- .menu{
+li a{
+    text-decoration: none;
+}
+.menu{
     flex: 1;
-    background-color: black;
-    color: white;
+    background-color: azure;
+    color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .menu ul{
+}
+.menu ul{
     list-style: none;
     text-align: center;
- }
- .menu li{
+}
+.menu li{
     margin: 20px 0;
-
- }
- .menu a{
-    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
     transition: color 0.3s ease;
- }
- .menu a:hover{
-    color: cadetblue;
- }
+}
+.menu a:hover {
+color: brown;
+}
+h1 {
+    text-align: center;
+}
+.img01 {
+    display: block;
+    margin: 0;
+    width: 15px ;
+    height: auto;
+}
